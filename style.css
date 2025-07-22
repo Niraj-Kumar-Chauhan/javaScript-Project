@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 7px solid black;
+    margin: 1rem;
+    align-content: center;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+.btn:hover{
+    box-shadow: 2px 2px 10px 2px purple;
+    transform: scale(1.05);
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.red{
+    background-color: rgb(203, 78, 93);
+}
+.yellow{
+    background-color: rgb(228, 146, 113);
+}
+.green{
+    background-color: rgb(47, 153, 141);
+}
+.purple{
+    background-color: rgb(67, 123, 171);
+}
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: green;
+}
+.score{
+    color: white;
+}
+h1, h2 {
+    color: white;
+}
